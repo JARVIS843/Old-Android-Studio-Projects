@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/my_image"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+
+
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/car" />
+
+    <TextView
+        android:id="@+id/title_text_view"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:layout_alignTop="@+id/first"
+
+        android:layout_marginTop="5dp"
+
+        android:text="_____________________"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#a142f5"
+
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/name"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+
+
+        android:layout_marginTop="410dp"
+
+        android:background="#ffff00"
+
+        android:text="Jarvis"
+
+
+        android:layout_marginRight="70dp"
+
+        android:textAppearance="?android:textAppearanceLarge"
+
+        android:textColor="#00ffff"
+
+        android:textStyle="bold"
+
+
+
+
+        />
+
+    <TextView
+
+        android:id="@+id/first"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="300dp"
+
+        android:text="It will be my first car"
+
+        android:textColor="#a142f5"
+
+        android:textSize="25sp"
+
+
+        android:textStyle="italic|bold"
+
+
+        />
+
+</RelativeLayout>

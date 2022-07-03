@@ -1,0 +1,82 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/my_image"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/car"
+
+
+        />
+    <TextView    android:id="@+id/title_text_view"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:text="_______________________"
+
+        android:textAppearance="?android:textAppearanceLarge"
+
+        android:textColor="#a142f5"
+        android:textStyle="bold"
+        android:layout_marginTop="255dp"
+
+        />
+    <TextView
+        android:id="@+id/name"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+
+
+        android:layout_marginTop="350dp"
+
+        android:background="#ffff00"
+
+        android:text="Jarvis"
+
+
+        android:layout_marginRight="70dp"
+
+        android:textAppearance="?android:textAppearanceLarge"
+
+        android:textColor="#00ffff"
+
+        android:textStyle="bold"
+
+
+
+
+        />
+    <TextView
+
+        android:id="@+id/first"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:text="It will be my first car"
+
+        android:textColor="#a142f5"
+
+        android:layout_marginTop="250dp"
+
+        android:textSize="25sp"
+
+
+        android:textStyle="italic|bold"
+
+
+        />
+
+</RelativeLayout>

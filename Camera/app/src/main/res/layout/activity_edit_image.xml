@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="top"
+        android:id="@+id/displayingimage"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="19">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:id="@+id/raiogroup"
+        >
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Individual PIxel"
+            android:id="@+id/single"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Select Area of Pixels"
+            android:id="@+id/groupselect"
+            />
+
+
+    </RadioGroup>
+    <EditText
+        android:id="@+id/startx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/raiogroup"
+        android:layout_marginLeft="180dp"
+        android:hint="Start X"
+        />
+    <EditText
+        android:id="@+id/starty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/raiogroup"
+        android:layout_marginLeft="270dp"
+        android:hint="Start Y"
+        />
+    <EditText
+        android:id="@+id/Endx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="180dp"
+        android:hint="End X"
+        />
+    <EditText
+        android:id="@+id/Endy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="270dp"
+        android:hint="End Y"
+        />
+    <EditText
+        android:id="@+id/color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="RGB Color"
+        android:layout_marginBottom="100dp"
+        />
+    </RelativeLayout>
+</LinearLayout>
+</LinearLayout>
